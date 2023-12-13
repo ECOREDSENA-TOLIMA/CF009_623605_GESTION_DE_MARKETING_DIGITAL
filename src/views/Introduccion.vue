@@ -16,7 +16,12 @@
         br
         | En el marco de la formalización y evaluación de ventas, la medición de resultados se convierte en un componente clave. La implementación de indicadores de gestión y satisfacción proporciona <em>insights</em> valiosos. Estas mediciones, junto con los KPI <em>(Key Performance Indicators),</em> ofrecen una visión detallada del desempeño comercial, permitiendo ajustes y mejoras continuas. En este contexto, exploraremos a fondo cada uno de estos aspectos para optimizar los procesos de ventas y asegurar la satisfacción tanto del equipo comercial como de los clientes.
 
-    
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/KIypNAPG5dY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+
+
 </template>
 
 <script>
