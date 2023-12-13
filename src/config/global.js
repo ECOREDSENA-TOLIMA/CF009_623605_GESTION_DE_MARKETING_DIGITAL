@@ -245,13 +245,13 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del equipo',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -259,9 +259,41 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Experto Temático',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Maribel Avellaneda Nieves',
+          cargo: 'Diseñadora Instruccional',
+          centro:
+            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Asesor Metodológico',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo de Desarrollo Curricular',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Corrector de Estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Juan Gilberto Giraldo Cortes',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñonez',
+          cargo: 'Asesora Metodológica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -269,19 +301,39 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Aruzidna Sánchez Alonso',
           cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboard e Ilustración',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animador y Productor Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Animador y Productor Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador y Productor Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Francisco José Vásquez Suárez',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -289,14 +341,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
+          nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
+          nombre: 'Gilberto Naranjo Farfán',
           cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
