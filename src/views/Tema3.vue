@@ -99,7 +99,7 @@
           p El análisis de los resultados traza rutas de acción para la toma de decisiones. 
           p Cada vez que se cumple el ciclo, las decisiones basadas en experiencias y datos reales deberían reflejarse en la mejora del negocio.
 
-    p.mb-5 El análisis de datos desempeña un papel crucial en la evaluación de una estrategia de marketing digital. Este proceso implica abordar una serie de preguntas esenciales para comprender la efectividad y el impacto de la campaña. Algunas de estas preguntas clave incluyen:
+    p.mb-5 El análisis de datos desempeña un papel crucial en la evaluación de una estrategia de <em>marketing</em> digital. Este proceso implica abordar una serie de preguntas esenciales para comprender la efectividad y el impacto de la campaña. Algunas de estas preguntas clave incluyen:
 
     .row.mb-4
       .col-md-8
@@ -181,7 +181,7 @@
             ul.lista-ul.mb-3
               li.mb-0
                 i.fas.fa-circle(style="color:#000")
-                | El logro de los objetivos de marketing.
+                | El logro de los objetivos de <em>marketing.</em>
               li.mb-0
                 i.fas.fa-circle(style="color:#000")
                 | La penetración en el mercado de las marcas.
@@ -254,7 +254,7 @@
                 | Nivel de satisfacción.
               li.mb-0
                 i.fas.fa-circle(style="color:#000")
-                | Relevancia para la empresa de la web corporativa o tienda on-line.
+                | Relevancia para la empresa de la <em>web</em> corporativa o tienda <em>on-line.</em> 
               li.mb-0
                 i.fas.fa-circle(style="color:#000")
                 | Relevancia de las redes sociales en la gestión diaria.
