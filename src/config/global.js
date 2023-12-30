@@ -208,7 +208,7 @@ export default {
     {
       referencia:
         'ISOTools. (s.f.). KPI (Key Performance Indicators) indicadores clave de desempeño. ISOTools.',
-      link: 'https://www.isotools.org/soluciones/procesos/kpis-indicadores/',
+      link: '',
     },
     {
       referencia:
@@ -302,7 +302,7 @@ export default {
       autores: [
         {
           nombre: 'Aruzidna Sánchez Alonso',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador Web',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
@@ -342,12 +342,12 @@ export default {
       autores: [
         {
           nombre: 'Javier Mauricio Oviedo',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validación y Vinculación en Plataforma LMS',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Gilberto Naranjo Farfán',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Validación de Contenidos Accesibles',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],

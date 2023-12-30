@@ -24,6 +24,10 @@
     p En el contexto de la cuarta Revolución Industrial, donde las herramientas y métodos están disponibles fácilmente y a bajos costos, las empresas de todos los tamaños deberían implementar un sistema de indicadores, enfocado a dar cuentas reales de cada área de la organización, de manera que brinde insumos sólidos para la toma de decisiones basada en datos y realidades productivas de la empresa. Esto debería reflejarse en mejoramiento continuo, decisiones más acertadas y aumento de productividad con crecimiento empresarial.
     p.mb-5 Para complementar la información observe el siguiente video del SENA denominado “La validación de la información y diseño de indicadores de gestión”.
     
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/_pcuK2pm1UM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     .row.justify-content-center.align-items-center.mb-4
       .col-10
         .tarjeta.tarjeta.p-4.mb-4(style="background:#FFFBE5")(data-aos="flip-up")
@@ -34,70 +38,74 @@
     p La información derivada del análisis de datos es esencial para la toma de decisiones inteligentes en el ámbito empresarial. Los datos, por sí solos, carecen de utilidad real hasta que son sometidos a un proceso de valoración, comprensión e interpretación que permita extraer información significativa. Es este análisis el que proporciona una perspectiva más profunda sobre las operaciones del negocio, el rendimiento financiero, la satisfacción del cliente y otros aspectos clave.
     p.mb-5 La capacidad de tomar decisiones informadas basadas en hechos concretos y situaciones reales es crucial para el éxito empresarial. Este proceso de análisis y toma de decisiones forma un ciclo continuo en el que los datos recopilados alimentan el conocimiento, que a su vez orienta futuras acciones y estrategias. La siguiente secuencia detalla cómo este proceso impacta en la gestión de datos y destaca su importancia en la toma de decisiones efectiva.
 
-    .row.justify-content-center.mt-5
-      SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-        .tarjeta.color-primario.p-4.col-ipad(style="background-color:#E3ECF7")
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/temas/tema3/img-2.svg' alt='AvatarTop')
-          p <strong>Definir objetivos</strong>
-          p Acción fundamental para la estructuración de planes corporativos.
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="flip-right")
+      .tarjeta.colortarj-1.p-4.col-ipad
+        .row.justify-content-center.mb-3
+          .col-8
+            img.mb-4(src='@/assets/curso/temas/tema3/img-2.svg' alt='AvatarTop')
+          .col-12
+            p <strong>Definir objetivos</strong>
+            p Acción fundamental para la estructuración de planes corporativos.
 
-        .tarjeta.color-primario.p-4.col-ipad(style="background-color:#FFFBE5")
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/temas/tema3/img-3.svg' alt='AvatarTop')
-          p <strong>Desarrollar estrategia</strong>
-          p Componente técnico que implica el desarrollo de:
-          ul.lista-ul.mb-3
-            li.mb-0
-              i.fas.fa-circle(style="color:#000")
-              | Contenido.
-            li.mb-0
-              i.fas.fa-circle(style="color:#000")
-              | Producto.
-            li.mb-0
-              i.fas.fa-circle(style="color:#000")
-              | Publicaciones.
-            li.mb-0
-              i.fas.fa-circle(style="color:#000")
-              | Canales.
-            li.mb-0
-              i.fas.fa-circle(style="color:#000")
-              | Tiempos.
+      .tarjeta.colortarj-2.p-4.col-ipad
+        .row.justify-content-center.mb-3
+          .col-8
+            img.mb-4(src='@/assets/curso/temas/tema3/img-3.svg' alt='AvatarTop')
+          .col-12
+            p <strong>Desarrollar estrategia</strong>
+            p Componente técnico que implica el desarrollo de:
+            ul.lista-ul.mb-3
+              li.mb-0
+                i.fas.fa-circle(style="color:#000")
+                | Contenido.
+              li.mb-0
+                i.fas.fa-circle(style="color:#000")
+                | Producto.
+              li.mb-0
+                i.fas.fa-circle(style="color:#000")
+                | Publicaciones.
+              li.mb-0
+                i.fas.fa-circle(style="color:#000")
+                | Canales.
+              li.mb-0
+                i.fas.fa-circle(style="color:#000")
+                | Tiempos.
 
-        .tarjeta.color-primario.p-4.col-ipad(style="background-color:#E3ECF7")
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/temas/tema3/img-4.svg' alt='AvatarTop')
-          p <strong>Captar datos</strong>
-          p En este paso se precisa definición sobre el origen de datos, teniendo en cuenta: 
-          ul.lista-ul.mb-3
-            li.mb-0
-              i.fas.fa-circle(style="color:#000")
-              | ¿Qué se mide?
-            li.mb-0
-              i.fas.fa-circle(style="color:#000")
-              | ¿De dónde se sacan esas mediciones? La fuente de datos
-            li.mb-0
-              i.fas.fa-circle(style="color:#000")
-              | En caso de varias fuentes, integrarlas, evitando datos dispersos que dificultan su visualización y análisis.
+      .tarjeta.colortarj-1.p-4.col-ipad
+        .row.justify-content-center.mb-3
+          .col-8
+            img.mb-4(src='@/assets/curso/temas/tema3/img-4.svg' alt='AvatarTop')
+          .col-12
+            p <strong>Captar datos</strong>
+            p En este paso se precisa definición sobre el origen de datos, teniendo en cuenta: 
+            ul.lista-ul.mb-3
+              li.mb-0
+                i.fas.fa-circle(style="color:#000")
+                | ¿Qué se mide?
+              li.mb-0
+                i.fas.fa-circle(style="color:#000")
+                | ¿De dónde se sacan esas mediciones? La fuente de datos
+              li.mb-0
+                i.fas.fa-circle(style="color:#000")
+                | En caso de varias fuentes, integrarlas, evitando datos dispersos que dificultan su visualización y análisis.
 
-        .tarjeta.color-primario.p-4.col-ipad(style="background-color:#FFFBE5")
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/temas/tema3/img-5.svg' alt='AvatarTop')
-          p <strong>Analizar datos</strong>
-          p Fase que implica el desarrollo de los KPI y permite visualizar la información, preferiblemente a través de <em>software</em> de analítica e inteligencia de negocio que comparan y evidencian comportamientos generales.  
+      .tarjeta.colortarj-2.p-4.col-ipad
+        .row.justify-content-center.mb-3
+          .col-8
+            img.mb-4(src='@/assets/curso/temas/tema3/img-5.svg' alt='AvatarTop')
+          .col-12
+            p <strong>Analizar datos</strong>
+            p Fase que implica el desarrollo de los KPI y permite visualizar la información, preferiblemente a través de <em>software</em> de analítica e inteligencia de negocio que comparan y evidencian comportamientos generales.  
 
-        .tarjeta.color-primario.p-4.col-ipad(style="background-color:#E3ECF7")
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/temas/tema3/img-6.svg' alt='AvatarTop')
-          p <strong>Tomar decisiones</strong>
-          p Etapa orientada a tomar medidas para corregir o mejorar permanente el cumplimiento de los objetivos del negocio.
-          p El análisis de los resultados traza rutas de acción para la toma de decisiones. 
-          p Cada vez que se cumple el ciclo, las decisiones basadas en experiencias y datos reales deberían reflejarse en la mejora del negocio.
+      .tarjeta.colortarj-1.p-4.col-ipad
+        .row.justify-content-center.mb-3
+          .col-8
+            img.mb-4(src='@/assets/curso/temas/tema3/img-6.svg' alt='AvatarTop')
+          .col-12
+            p <strong>Tomar decisiones</strong>
+            p Etapa orientada a tomar medidas para corregir o mejorar permanente el cumplimiento de los objetivos del negocio.
+            p El análisis de los resultados traza rutas de acción para la toma de decisiones. 
+            p Cada vez que se cumple el ciclo, las decisiones basadas en experiencias y datos reales deberían reflejarse en la mejora del negocio.
 
     p.mb-5 El análisis de datos desempeña un papel crucial en la evaluación de una estrategia de <em>marketing</em> digital. Este proceso implica abordar una serie de preguntas esenciales para comprender la efectividad y el impacto de la campaña. Algunas de estas preguntas clave incluyen:
 
@@ -134,7 +142,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/img-7.svg', alt='Imagen decorativa')
 
-    p.mb-5 Este análisis no solo busca respuestas, sino que también plantea la posibilidad de identificar preguntas adicionales que podrían ser cruciales y que los datos actuales podrían no estar abordando por completo. Este enfoque reflexivo y analítico es esencial para ajustar y optimizar continuamente las estrategias de marketing digital.
+    p.mb-5 Este análisis no solo busca respuestas, sino que también plantea la posibilidad de identificar preguntas adicionales que podrían ser cruciales y que los datos actuales podrían no estar abordando por completo. Este enfoque reflexivo y analítico es esencial para ajustar y optimizar continuamente las estrategias de <em>marketing</em> digital.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10(data-aos="fade-down-right")
@@ -149,34 +157,34 @@
     p Los KPI, o Indicadores Clave de Desempeño, son métricas específicas que se utilizan para evaluar el rendimiento y el éxito de una estrategia, campaña o actividad en relación con los objetivos establecidos. Estos indicadores proporcionan una visión cuantificable de diversos aspectos del desempeño, lo que facilita el seguimiento y la toma de decisiones informadas.
     p.mb-5 En el contexto del <em>marketing</em> digital, los KPI pueden variar según los objetivos específicos de la campaña. A continuación, se describen sus características más relevantes:
 
-    .BGIMG01.p-5.mb-5
+    .tarjeta.tarjeta--azul.slyder-b-img.p-4.mb-5
       SlyderA(tipo="b")
         .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
+          .col-md-6.mb-4.mb-md-0
             p La gestión efectiva del control operativo implica la elección cuidadosa de una serie de elementos indicativos, conocidos como Indicadores Clave de Rendimiento (KPI, por sus siglas en inglés), y/o proporciones que nos ayudan a estar al tanto de la evolución de la situación. En resumen, un indicador es simplemente un factor mensurable que nos proporciona información sobre el estado de una situación específica, permitiéndonos comparar periódicamente los logros con los objetivos establecidos.
 
-          .col-md-6.col-ipad
+          .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img-8.png', alt='Texto que describa la imagen')
 
         .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
+          .col-md-6.mb-4.mb-md-0
             p Aunque hay algunos indicadores comunes ampliamente utilizados por diversas empresas, es fundamental elaborar los KPI de forma personalizada para cada organización, considerando el tipo de negocio, el mercado, la situación específica de la empresa, así como la estrategia adoptada. Estos factores juegan un papel determinante en su definición y relevancia.
 
-          .col-md-6.col-ipad
+          .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img-9.png', alt='Texto que describa la imagen')
 
         .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
+          .col-md-6.mb-4.mb-md-0
             p Todos estos indicadores se integran dentro de lo que combinados se conoce como el cuadro de mando, una valiosa herramienta de gestión que se utiliza para la toma de decisiones estratégicas y el control operativo de la empresa. Este cuadro de mando no solo permite monitorear el desempeño en tiempo real, sino que también facilita una comprensión clara de la situación empresarial a través de la presentación visual de métricas clave.
 
-          .col-md-6.col-ipad
+          .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img-10.png', alt='Texto que describa la imagen')
 
         .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
+          .col-md-6.mb-4.mb-md-0
             p El cuadro de mando incluye gráficos que representan la evolución de las ventas, la tendencia anual, tablas detalladas que muestren el avance de las ventas de los productos, y varios ratios que actúen como indicadores de:
             ul.lista-ul.mb-3
               li.mb-0
@@ -204,18 +212,9 @@
                 i.fas.fa-circle(style="color:#000")
                 | Etc.
 
-          .col-md-6.col-ipad
+          .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img-11.png', alt='Texto que describa la imagen')
-        
-        .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
-            h3 Mandato comercial
-            p Una parte se obliga a realizar una serie de actos comerciales a nombre de la otra, de forma remunerada o gratuita (CC, 1971, Art. 905).  
-
-          .col-md-6.col-ipad
-            figure
-              img(src='@/assets/curso/temas/tema3/img-12.png', alt='Texto que describa la imagen')
         
     .row
       .col-md-7
@@ -232,10 +231,10 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-10(data-aos="fade-down-right")
         .row
-          .col-5
+          .col-md-4.mb-4
             figure
                 img(src='@/assets/curso/temas/tema3/img-13.png', alt='')
-          .col-7
+          .col-md-8
             ul.lista-ul.mb-3
               li.mb-0
                 i.fas.fa-circle(style="color:#000")

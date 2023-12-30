@@ -47,75 +47,75 @@
     p Estos son documentos que se utilizan para formalizar y regular acuerdos a los que llegan dos o más partes en una negociación. Dependiendo de la naturaleza del acuerdo comercial o negocio, se requiere un tipo específico de contrato que se acomode a las necesidades y requisitos pactados.
     p.mb-5 A continuación, se presentan los tipos de contratos comerciales más comunes y su respectiva descripción:
 
-    .BGIMG01.p-5.mb-5
+    .tarjeta.tarjeta--azul.slyder-b-img.p-4.mb-5
       SlyderA(tipo="b")
         .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
+          .col-md-6.mb-4.mb-md-0
             h3 Compraventa mercantil 
             p Una de las partes vende a la otra una propiedad o cosa y la otra parte se compromete a pagar el valor pactado. Si el pago se pacta en dinero y especie, se entenderá como una permuta, siempre y cuando la especie valga más que el dinero, de lo contrario será venta (Código de Comercio, 1971, Art. 905).  
 
-          .col-md-6.col-ipad
+          .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img-2.png', alt='Texto que describa la imagen')
 
         .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
+          .col-md-6.mb-4.mb-md-0
             h3 Mandato comercial
             p Una parte se obliga a realizar una serie de actos comerciales a nombre de la otra, de forma remunerada o gratuita (CC, 1971, Art. 905).  
 
-          .col-md-6.col-ipad
+          .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img-3.png', alt='Texto que describa la imagen')
 
         .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
+          .col-md-6.mb-4.mb-md-0
             h3 Comisión
             p Especie de mandato, donde una de las partes es encomendada a realizar ciertas tareas a nombre propio, pero por cuenta ajena (CC, 1971, Art. 1287).  
 
-          .col-md-6.col-ipad
+          .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img-4.png', alt='Texto que describa la imagen')
 
         .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
+          .col-md-6.mb-4.mb-md-0
             h3 Suministro
-            p Contrato de colaboración empresarial, en el que dos o más negocios forman un vínculo donde una de las partes se compromete a suministrar de forma continua y responsable bienes o servicios a la otra parte (CC, 1971, Art. 968).  
+            p Contrato de colaboración empresarial, en el que dos o más negocios forman un vínculo donde una de las partes se compromete a suministrar de forma continua y responsable, bienes o servicios a la otra parte (CC, 1971, Art. 968).  
 
-          .col-md-6.col-ipad
+          .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img-5.png', alt='Texto que describa la imagen')
         
         .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
+          .col-md-6.mb-4.mb-md-0
             h3 Fletamiento
             p Tiene la función de comprometer a una de las partes a realizar labores de transporte de materiales mediante un vehículo, nave o cualquier otro medio de transporte (CC, 1971, Art. 1667). *Nota: la contratación de transporte tiene más normas a considerar.
 
-          .col-md-6.col-ipad
+          .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img-6.png', alt='Texto que describa la imagen')
         
         .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
+          .col-md-6.mb-4.mb-md-0
             h3 Arrendamiento de vivienda
             p Regulado por la Ley 820 de 2003, define la relación entre un arrendador y un arrendatario, una de las partes da el goce de una propiedad a la otra para que esta la utilice como vivienda a cambio de una remuneración.
 
-          .col-md-6.col-ipad
+          .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img-7.png', alt='Texto que describa la imagen')
         
         .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
+          .col-md-6.mb-4.mb-md-0
             h3 Comodato
             p Contrato en el que una de las partes entrega un bien de manera gratuita a la otra, que debe ser devuelto una vez finalice el contrato o cuando termine su uso por otra razón. Normalmente se establece para que la parte que recibe el bien, cuide de la propiedad a cambio de vivir en ella (CC, 1971, Art. 2200).  
 
-          .col-md-6.col-ipad
+          .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img-8.png', alt='Texto que describa la imagen')
 
     p.mb-5 Es importante tener en cuenta los elementos que conforman un contrato, como se muestra a continuación:
 
     .row.justify-content-center.align-items-center.mb-5 
-      .col-6
+      .col-lg-7.mb-4
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Participantes")
             .col-md-12.mb-4.mb-md-0
@@ -141,7 +141,7 @@
             .col-md-12.mb-4.mb-md-0
               p.text-small En caso de ser necesario, se consigna algún acuerdo adicional siempre y cuando estas cláusulas o condiciones no afecten o estén prohibidas por la ley.
 
-      .col-4
+      .col-lg-3
         img(src='@/assets/curso/temas/tema1/img-9.svg')        
 
     p.mb-4 Si en las actividades profesionales comerciales, se realiza un contrato mercantil, es muy importante consultar con profesionales especializados en el derecho comercial o, en su defecto, dedicar tiempo a la consulta y estudio de la normativa vigente.
@@ -240,7 +240,7 @@
             | Decreto 704 de 2012: establece los criterios que tendrá en cuenta la Superintendencia de Industria y Comercio para graduar las sanciones administrativas.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-6(data-aos="fade-down-right")
+      .col-10(data-aos="fade-down-right")
         .cajon.color-primario.p-4(style="background-color:#E3ECF7")
           p Recuerde que existen diferentes páginas en internet, donde se podrá obtener información detallada y concreta sobre cada normativa, esto dará más claridad, en el momento de aplicar la legislación en el ámbito organizacional.
 

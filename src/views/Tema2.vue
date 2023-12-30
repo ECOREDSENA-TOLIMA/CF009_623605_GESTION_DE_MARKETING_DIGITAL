@@ -51,59 +51,63 @@
             br
             | A continuación, se presentan algunas objeciones comunes y estrategias para gestionarlas:
 
-    .row.justify-content-center.mt-5
-      SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-        .tarjeta.color-primario.p-4.col-ipad(style="background-color:#E3ECF7")
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/temas/tema2/img-3.svg' alt='AvatarTop')
-          p <strong>“No tengo dinero”</strong>
-          p Cuando alguien se interese, pero su justificación es la falta de dinero, se recomienda:
-          ul.lista-ul.mb-3
-            li.mb-0
-              i.fas.fa-circle(style="color:#000")
-              | Ofrecerle los productos comprometiéndolo a regresar luego.
-            li.mb-0
-              i.fas.fa-circle(style="color:#000")
-              | A modo de broma, manifestarle que también se reciben tarjetas, pagar con código QR o monedas. 
-            li.mb-0
-              i.fas.fa-circle(style="color:#000")
-              | Presentar productos a bajo costo.
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="flip-right")
+      .tarjeta.colortarj-1.p-4.col-ipad
+        .row.justify-content-center.mb-3
+          .col-8
+            img.mb-4(src='@/assets/curso/temas/tema2/img-3.svg' alt='AvatarTop')
+          .col-12
+            p <strong>“No tengo dinero”</strong>
+            p Cuando alguien se interese, pero su justificación es la falta de dinero, se recomienda:
+            ul.lista-ul.mb-3
+              li.mb-0
+                i.fas.fa-circle(style="color:#000")
+                | Ofrecerle los productos comprometiéndolo a regresar luego.
+              li.mb-0
+                i.fas.fa-circle(style="color:#000")
+                | A modo de broma, manifestarle que también se reciben tarjetas, pagar con código QR o monedas. 
+              li.mb-0
+                i.fas.fa-circle(style="color:#000")
+                | Presentar productos a bajo costo.
 
-        .tarjeta.color-primario.p-4.col-ipad(style="background-color:#FFFBE5")
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/temas/tema2/img-4.svg' alt='AvatarTop')
-          p  <strong>“No tengo tiempo de esperar”</strong>
-          p Cuando un cliente está de prisa y no hay posibilidades de atenderlo de manera inmediata, resulta útil…
-          ul.lista-ul.mb-3
-            li.mb-0
-              i.fas.fa-circle(style="color:#000")
-              | Darle información impresa o links para que vaya leyendo.
-            li.mb-0
-              i.fas.fa-circle(style="color:#000")
-              | Si es el caso que se va del local o del chat, recalcar que se le espera más tarde para atenderlo como se merece.
+      .tarjeta.colortarj-2.p-4.col-ipad
+        .row.justify-content-center.mb-3
+          .col-8
+            img.mb-4(src='@/assets/curso/temas/tema2/img-4.svg' alt='AvatarTop')
+          .col-12
+            p <strong>“No tengo tiempo de esperar”</strong>
+            p Cuando un cliente está de prisa y no hay posibilidades de atenderlo de manera inmediata, resulta útil…
+            ul.lista-ul.mb-3
+              li.mb-0
+                i.fas.fa-circle(style="color:#000")
+                | Darle información impresa o links para que vaya leyendo.
+              li.mb-0
+                i.fas.fa-circle(style="color:#000")
+                | Si es el caso que se va del local o del chat, recalcar que se le espera más tarde para atenderlo como se merece.
 
-        .tarjeta.color-primario.p-4.col-ipad(style="background-color:#E3ECF7")
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/temas/tema2/img-5.svg' alt='AvatarTop')
-          p <strong>“Si me fía, le compro”</strong>
-          p En caso de que no existan productos que se vendan a crédito, responder de manera agradable haciéndole saber al cliente que no está en sus manos vender productos de esa manera.
+      .tarjeta.colortarj-1.p-4.col-ipad
+        .row.justify-content-center.mb-3
+          .col-8
+            img.mb-4(src='@/assets/curso/temas/tema2/img-5.svg' alt='AvatarTop')
+          .col-12
+            p <strong>“Si me fía, le compro”</strong>
+            p En caso de que no existan productos que se vendan a crédito, responder de manera agradable haciéndole saber al cliente que no está en sus manos vender productos de esa manera.
 
-        .tarjeta.color-primario.p-4.col-ipad(style="background-color:#FFFBE5")
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/temas/tema2/img-6.svg' alt='AvatarTop')
-          p <strong>“No necesito nada más”</strong>
-          p Es importante ser convincente en el ofrecimiento de productos cruzados y los beneficios. Si no se explica de la manera correcta, el cliente pedirá, por ejemplo, su cambio en vez de un producto y ya será muy difícil que cambie de opinión. Se recomienda ofrecer servicios o productos asociados o complementarios a la compra inicial.
+      .tarjeta.colortarj-2.p-4.col-ipad
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema2/img-6.svg' alt='AvatarTop')
+          .col-12
+            p <strong>“No necesito nada más”</strong>
+            p Es importante ser convincente en el ofrecimiento de productos cruzados y los beneficios. Si no se explica de la manera correcta, el cliente pedirá, por ejemplo, su cambio en vez de un producto y ya será muy difícil que cambie de opinión. Se recomienda ofrecer servicios o productos asociados o complementarios a la compra inicial.
 
-        .tarjeta.color-primario.p-4.col-ipad(style="background-color:#E3ECF7")
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/temas/tema2/img-7.svg' alt='AvatarTop')
-          p <strong>“Me gusta, pero justo ahora no”</strong>
-          p Las plataformas de comercio electrónico detectan al usuario que estuvo viendo un producto por cierto tiempo, por lo que los sistemas lo perfilan y lo asocian con un producto deseado. Es importante configurar y gestionar bien estas herramientas para que, en unos días, se le pueda enviar publicidad motivando a la compra, incluso crear promociones que atraigan a estos interesados.
+      .tarjeta.colortarj-1.p-4.col-ipad
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema2/img-7.svg' alt='AvatarTop')
+          .col-12
+            p <strong>“Me gusta, pero justo ahora no”</strong>
+            p Las plataformas de comercio electrónico detectan al usuario que estuvo viendo un producto por cierto tiempo, por lo que los sistemas lo perfilan y lo asocian con un producto deseado. Es importante configurar y gestionar bien estas herramientas para que, en unos días, se le pueda enviar publicidad motivando a la compra, incluso crear promociones que atraigan a estos interesados.
 
 
 
