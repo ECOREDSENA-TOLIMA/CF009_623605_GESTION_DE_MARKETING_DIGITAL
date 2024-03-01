@@ -149,7 +149,7 @@
     Separador 
 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.3 Estatuto del Consumidor
+      h2 1.3 Estatuto del consumidor
 
     p.mb-5 Mediante la Ley 1480 de 2011 se expidió el Estatuto del Consumidor para proteger, promover y garantizar la efectividad y el libre ejercicio de los derechos de los consumidores. De manera general, este Estatuto contiene disposiciones que permiten a los consumidores ejercer sus derechos en temas como: 
 
