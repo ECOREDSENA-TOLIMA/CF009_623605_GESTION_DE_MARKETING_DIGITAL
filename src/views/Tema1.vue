@@ -115,7 +115,7 @@
     p.mb-5 Es importante tener en cuenta los elementos que conforman un contrato, como se muestra a continuación:
 
     .row.justify-content-center.align-items-center.mb-5 
-      .col-lg-7.mb-4
+      .col-lg-7.col-12.mb-4
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Participantes")
             .col-md-12.mb-4.mb-md-0
@@ -141,7 +141,7 @@
             .col-md-12.mb-4.mb-md-0
               p.text-small En caso de ser necesario, se consigna algún acuerdo adicional siempre y cuando estas cláusulas o condiciones no afecten o estén prohibidas por la ley.
 
-      .col-lg-3
+      .col-lg-3.col-8.col-sm-6
         img(src='@/assets/curso/temas/tema1/img-9.svg')        
 
     p.mb-4 Si en las actividades profesionales comerciales, se realiza un contrato mercantil, es muy importante consultar con profesionales especializados en el derecho comercial o, en su defecto, dedicar tiempo a la consulta y estudio de la normativa vigente.
@@ -200,11 +200,11 @@
       .col-auto
         h3 Ley 1480 de 2011. Estatuto del Consumidor
 
-    .row.mb-5
-      .col-md-4.mb-3
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4.col-8.col-sm-6.mb-3
         figure
             img(src='@/assets/curso/temas/tema1/img-11.svg', alt='')
-      .col-md-8
+      .col-lg-8.col-12
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta

@@ -205,11 +205,12 @@ export default {
         'Congreso de Colombia (2011). Ley 1480 de 2011. Estatuto del consumidor. (12 de octubre de 2011).',
       link: 'http://secretariasenado.gov.co/senado/basedoc/ley_1480_2011.html',
     },
-    // {
-    //   referencia:
-    //     'ISOTools. (s.f.). KPI (Key Performance Indicators) indicadores clave de desempeño. ISOTools.',
-    //   link: '',
-    // },
+    {
+      referencia:
+        'ISOTools. (s.f.). KPI (Key Performance Indicators) indicadores clave de desempeño. ISOTools.',
+      link:
+        'https://co.isotools.us/gestion-procesos-principales-indicadores-desempeno/',
+    },
     {
       referencia:
         'Recursos Educativos Digitales SENA, E. [@EcosistemaSENAVirtual]. (2022, 20 de mayo). Interpretación de indicadores de gestión (KPI) [Archivo de vídeo]. YouTube.',
